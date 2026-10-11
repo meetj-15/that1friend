@@ -17,6 +17,6 @@ class ChatService:
         return await self.provider.chat(messages)
 
     async def stream_reply(self, user_content: str)->AsyncIterator[str]:
-        messages=[ChatMessage(role="system", content=SYSTEM_PROMPT), ChatMessage(role="user", content=user+content),]
+        messages=[ChatMessage(role="system", content=SYSTEM_PROMPT), ChatMessage(role="user", content=user_content),]
         async for chunk in self.provider.stream_chat(messages):
             yield chunk
