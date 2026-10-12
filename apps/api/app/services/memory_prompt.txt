@@ -1,0 +1,8 @@
+Return JSON array only.
+
+For each candidate memory, include:
+- type: preference | goal | fact | event | learning_style | running_joke
+- content: one concise sentence
+- importance: 0.0 to 1.0
+
+Only store information that is likely to be useful later. Do not store passwords, secrets, temporary one-off details, or highly sensitive information unless the product explicitly supports it.
