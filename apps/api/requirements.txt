@@ -8,3 +8,4 @@ ruff
 sentence-transformers
 numpy
 faiss-cpu
+tavily-python
