@@ -1,0 +1,1 @@
+Binary search repeatedly halves a sorted search space. The ordering lets us determine which half cannot contain the target after comparing the target with the midpoint.
