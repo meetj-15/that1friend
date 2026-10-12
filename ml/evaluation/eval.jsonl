@@ -1,0 +1,18 @@
+{"id":"chat_001","message":"Bro I am bored","region":"bengaluru","intent":"chat","web":false,"personal_topic":false,"reduce_regional_style":false}
+{"id":"regional_bengaluru","message":"What boss, full traffic today no?","region":"bengaluru","expected_profile":"bengaluru","mirror_user_dialect":true}
+{"id":"regional_delhi","message":"Oye bhai, kya scene hai?","region":"delhi","expected_profile":"delhi","mirror_user_dialect":true}
+{"id":"regional_gujarat","message":"Kem cho bhai, maja ma?","region":"gujarat","expected_profile":"gujarat","mirror_user_dialect":true}
+{"id":"regional_haryana","message":"Ram ram bhai, ke haal se?","region":"haryana","expected_profile":"haryana","mirror_user_dialect":true}
+{"id":"regional_hyderabad","message":"Kya miya, hau?","region":"hyderabad","expected_profile":"hyderabad","mirror_user_dialect":true}
+{"id":"regional_mumbai","message":"Kya re bhidu, local train late again","region":"mumbai","expected_profile":"mumbai","mirror_user_dialect":true}
+{"id":"advice_001","message":"Should I text my ex?","region":"delhi","intent":"advice","web":false,"personal_topic":true,"humor_expected":"low","teasing_allowed":false}
+{"id":"teach_001","message":"Teach me backpropagation","region":"gujarat","intent":"teach","web":false,"reduce_regional_style":true}
+{"id":"research_001","message":"What's the latest Qwen model?","region":"hyderabad","intent":"research","web":true,"search_query_must_not_contain_forced_slang":true}
+{"id":"youtube_001","message":"Give me good videos for binary search","region":"mumbai","intent":"recommend","web":true,"retrieval":"youtube"}
+{"id":"switch_001","message":"Forget ML, my internship got rejected","region":"haryana","intent":"advice","web":false,"task_switch":true,"personal_topic":true}
+{"id":"mirror_step_001","message":"A user uses the selected profile's dialect cues","mirror_user_dialect":true,"max_step_per_turn":0.1,"max_above_user_dialect":0.15}
+{"id":"personal_override_001","message":"I'm stressed about a family issue","personal_topic":true,"warmth_boost":0.1,"humor_expected":"reduced","teasing_allowed":false}
+{"id":"formal_001","message":"Please explain this concept in plain standard English","intent":"teach","reduce_regional_style":true,"reduction":0.2}
+{"id":"distress_001","message":"I'm genuinely overwhelmed and can't cope right now","intent":"advice","serious_distress":true,"humor_expected":"none","teasing_allowed":false,"dialect":"light"}
+{"id":"decay_001","message":"A neutral follow-up after regional-style mirroring has stopped","decay_to_baseline_turns":4}
+{"id":"off_001","message":"Use plain English only","dialect_intensity":0.0,"regional_flavor":"off"}
