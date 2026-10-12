@@ -1,0 +1,16 @@
+{
+  "title": "Binary Search in 90 Seconds",
+  "scenes": [
+    {"type": "title", "text": "Binary Search"},
+    {"type": "paragraph", "text": "We repeatedly cut a sorted search space in half."},
+    {
+      "type": "diagram",
+      "values": [1, 4, 7, 9, 12, 20, 30],
+      "highlight_index": 3
+    },
+    {
+      "type": "equation",
+      "latex": "T(n)=T(n/2)+O(1)"
+    }
+  ]
+}
